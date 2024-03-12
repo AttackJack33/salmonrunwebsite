@@ -1,0 +1,1911 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16pt;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background: url(/img/bannerimage.png);
+    background-size: cover;
+    width: 100%;
+    margin: inherit;
+    padding: inherit;
+}
+
+li {
+    float: right;
+    padding: 30px; 
+    width: auto;
+    text-align: center;
+    list-style-type: none;
+}
+
+h1 {
+    font-size: 32pt;
+}
+
+h2 {
+    margin: 15px 0px;
+}
+
+.welcome {
+    display: inline-block;
+    margin: 50px;
+    background-color: blue;
+    border-radius: 60px;
+    padding: 0px 40px;
+    border: 10px solid darkslategray;
+}
+
+.info {
+    display: inline-block;
+    margin: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 60px;
+    padding: 0px 40px;
+    border: 10px solid darkslategray;
+    background: url(/img/infoground.jpg) no-repeat;
+    background-size: cover;
+}
+
+.statsheader {
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    background-color: rgb(66, 66, 66);
+    margin: 80px;
+    border-radius: 25px;
+    border: 10px solid rgb(235, 235, 0);
+    padding: 0px 10px;
+    font-size: 24pt;
+}
+
+.weaponicon {
+    display: inline-block;
+    background:rgb(156, 156, 156);
+    border: 8px solid rgb(235, 235, 0);
+    border-radius: 20px;
+    width: 256px;
+    height: fit-content;
+    margin: 20px 0px 20px 80px;
+    padding: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.stattext {
+    position: relative;
+    z-index: 1;
+    margin: auto;
+}
+
+#progressBarContainer {
+    width: 100%;
+    background-color: rgb(156, 156, 156);
+    border: 4px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    height: auto;
+}
+
+/*All of this below was pain*/
+
+#progressBar1 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar2 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar3 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar4 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar5 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar6 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar7 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar8 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar9 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar10 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar11 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar12 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar13 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar14 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar15 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar16 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar17 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar18 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar19 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar20 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar21 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar22 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar23 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar24 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar25 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar26 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar27 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar28 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar29 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar30 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar31 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar32 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar33 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar34 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar35 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar36 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar37 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar38 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar39 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar40 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar41 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar42 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar43 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar44 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar45 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar46 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar47 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar48 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar49 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar50 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar51 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar52 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar53 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar54 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar55 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar56 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar57 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar58 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar59 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar60 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar61 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar62 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar63 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar64 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar65 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar66 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar67 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar68 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar69 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar70 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar71 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar72 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar73 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar74 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar75 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar76 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar77 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar78 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar79 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar80 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar81 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar82 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar83 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar84 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar85 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar86 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar87 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar88 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar89 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar90 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar91 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar92 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar93 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar94 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar95 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar96 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar97 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar98 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar99 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar00 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar01 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar02 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar03 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar04 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar05 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar06 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar07 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar08 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar09 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar110 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar111 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar112 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar113 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar114 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar115 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar116 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar117 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar118 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar119 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar120 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar121 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar122 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar123 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar124 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar125 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar126 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar127 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar128 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar129 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar130 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar131 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar132 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar133 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar134 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar135 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar136 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar137 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar138 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar139 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar140 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar141 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar142 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar143 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar144 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar145 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar146 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar147 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar148 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar149 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar150 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar151 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar152 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar153 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar154 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar155 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar156 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar157 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar158 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar159 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar160 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar161 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar162 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar163 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar164 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar165 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar166 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar167 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar168 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar169 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar170 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar171 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar172 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar173 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar174 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar175 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar176 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar177 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar178 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar179 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar180 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar181 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar182 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar183 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar184 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar185 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar186 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar187 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar188 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar189 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar190 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar191 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar192 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar193 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar194 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar195 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar196 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar197 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar198 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar199 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar200 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
+
+#progressBar201 {
+    height: 25px;
+    background-color:rgb(224, 255, 112);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    top: 0;
+    position: absolute;
+}
